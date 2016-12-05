@@ -50,8 +50,7 @@
 .call-outs-container{
 	max-width:1400px;
 	margin: 40px auto 0 auto;
-	display:flex;
-	justify-content:space-between;
+	
 }
 
 .call-out{
@@ -67,3 +66,11 @@
 .call-out:nth-child(1){ background-color: #c0dbe2; }
 .call-out:nth-child(2){ background-color: #cdf1c3; }
 .call-out:nth-child(3){ background-color: #ccb9da; }
+
+@media (min-width:900px ){
+
+	.call-outs-container{
+		display:flex;
+		justify-content:space-between;
+	}
+}
