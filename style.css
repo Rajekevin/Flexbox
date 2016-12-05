@@ -8,6 +8,7 @@
 .form-row label {
 
 	padding-right:10px;
+	flex:1;
 }
 
 .form-row input{
@@ -27,11 +28,13 @@
 
 .main-column{
 	flex:3;
+	order: 2;
 }
 
 .sidebar-one{
 
-	flex:2;
+	flex:1;
+	order:1;
 
 }
 
@@ -39,5 +42,6 @@
 .sidebar-two{
 
 	flex:1;
+	order:3;
 	
 }
